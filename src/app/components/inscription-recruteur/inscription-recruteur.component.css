@@ -41,3 +41,7 @@ font-size: 60px;
     color: white;
     width: 120px;
 }
+a{
+    float: right;
+    color: #ff9800;
+}

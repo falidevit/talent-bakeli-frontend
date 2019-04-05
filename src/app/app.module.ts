@@ -7,7 +7,6 @@ import { PageCouvertureAccueilComponent } from './components/page-couverture-acc
 
 import { InscriptionRecruteurComponent } from './components/inscription-recruteur/inscription-recruteur.component';
 import { HomepageComponent } from './components/homepage/homepage.component';
-import { BakelisteProfileComponent } from './components/bakeliste-profile/bakeliste-profile.component';
 import { HowToWorkComponent } from './components/how-to-work/how-to-work.component';
 import { ContactFormComponent } from './components/contact-form/contact-form.component';
 import { DomainesComponent } from './components/domaines/domaines.component';
@@ -18,8 +17,6 @@ import { HeaderComponent } from './components/header/header.component';
 @NgModule({
   declarations: [
     AppComponent,
-    HomepageComponent,
-    BakelisteProfileComponent,
     PageCouvertureAccueilComponent,
     HomepageComponent,
     HowToWorkComponent,
