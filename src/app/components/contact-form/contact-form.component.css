@@ -10,7 +10,10 @@
 
 }
 
-
+.partie
+{
+    margin-right: 1px;
+}
 
 .header{
 text-align: center;
@@ -28,4 +31,9 @@ font-size: 60px;
 .button
 {
     width: 120px;
+}
+
+img{
+
+    border-radius: 50% !important;
 }
