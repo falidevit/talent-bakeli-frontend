@@ -1,0 +1,27 @@
+ul.right-nav-talent li {
+    list-style: none;
+    display: inline-block;
+    margin: 9px;
+    border: 1px solid #fff;
+    padding: 10px;
+    width: 173px;
+    border-radius: 5px;
+}
+
+ul.right-nav-talent li a {
+    font-size: 17px;
+    text-align: center;
+    color: #fff;
+    vertical-align: middle;
+    display: table-cell;
+    font-weight: 600;
+}
+
+ul.right-nav-talent li a i {
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.navbar{
+    background: #ff9800 !important;
+}
