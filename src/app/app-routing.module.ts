@@ -11,7 +11,8 @@ const routes: Routes = [
   { path: 'inscription-recruteur', component: InscriptionRecruteurComponent},
   { path: 'contact-form', component: ContactFormComponent},
   { path: 'connexion', component: ConnexionComponent},
-  { path: 'profil-bakeliste', component: BakelisteProfileComponent }
+  { path: 'profil-bakeliste', component: BakelisteProfileComponent },
+  { path: 'contact-form', component: ContactFormComponent }
 
 ];
 
