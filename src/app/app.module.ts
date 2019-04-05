@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { InscriptionRecruteurComponent } from './components/inscription-recruteur/inscription-recruteur.component';
 import { HomepageComponent } from './components/homepage/homepage.component';
 import {DomainesComponent} from './components/domaines/domaines.component';
 import { CarrousselComponent } from './components/carroussel/carroussel.component';
