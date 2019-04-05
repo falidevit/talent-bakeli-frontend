@@ -1,0 +1,14 @@
+.fa-eye {
+    font-size: 5em;
+    color: #009688;
+    
+}
+.fa-eye:hover{
+    color: #ff9800; 
+}
+
+img {
+    width: 100px !important;
+    height: 100px !important;
+    background-color: #ff9800 !important;
+}
