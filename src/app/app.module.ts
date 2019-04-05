@@ -3,17 +3,18 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { InscriptionRecruteurComponent } from './components/inscription-recruteur/inscription-recruteur.component';
 import { HomepageComponent } from './components/homepage/homepage.component';
 import {DomainesComponent} from './components/domaines/domaines.component';
-import { ConnectComponent } from './connect/connect.component';
-import { ConnexionComponent } from './components/connexion/connexion.component';
+import { ContactFormComponent } from './components/contact-form/contact-form.component';
+
 @NgModule({
   declarations: [
     AppComponent,
     HomepageComponent,
     DomainesComponent,
-    ConnectComponent,
-    ConnexionComponent
+    InscriptionRecruteurComponent,
+    ContactFormComponent
   ],
   imports: [
     BrowserModule,
