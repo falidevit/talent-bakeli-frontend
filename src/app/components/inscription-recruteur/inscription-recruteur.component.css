@@ -1,4 +1,21 @@
 .form-content{
-    background-color:#ff9800;
+    color: white;
     align-content: center;
+    padding: 3px;
+    background-color: #f44336 !important;
+}
+
+.form-in{
+    padding: 3px;
+    color:#ff9800;
+}
+
+label{
+    color:#ff9800;
+}
+
+.header{
+text-align: center;
+text-transform: uppercase;
+color: #f44336;
 }

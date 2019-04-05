@@ -3,20 +3,16 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-<<<<<<< HEAD
 import { InscriptionRecruteurComponent } from './components/inscription-recruteur/inscription-recruteur.component';
-=======
 import { HomepageComponent } from './components/homepage/homepage.component';
->>>>>>> 27469e0f875d8c4e85e54aa434766ea453e51781
+import { ContactFormComponent } from './components/contact-form/contact-form.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-<<<<<<< HEAD
-    InscriptionRecruteurComponent
-=======
-    HomepageComponent
->>>>>>> 27469e0f875d8c4e85e54aa434766ea453e51781
+    HomepageComponent,
+    InscriptionRecruteurComponent,
+    ContactFormComponent
   ],
   imports: [
     BrowserModule,
