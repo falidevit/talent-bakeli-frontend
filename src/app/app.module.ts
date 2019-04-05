@@ -6,14 +6,7 @@ import { AppComponent } from './app.component';
 import { PageCouvertureAccueilComponent } from './components/page-couverture-accueil/page-couverture-accueil.component';
 
 import { InscriptionRecruteurComponent } from './components/inscription-recruteur/inscription-recruteur.component';
-    AppComponent,
-    PageCouvertureAccueilComponent,
-    HomepageComponent,
-    HowToWorkComponent,
-    InscriptionRecruteurComponent,
-    ContactFormComponent,
-    DomainesComponent,
-    ConnexionComponent
+import { HomepageComponent } from './components/homepage/homepage.component';
 import { HowToWorkComponent } from './components/how-to-work/how-to-work.component';
 import { ContactFormComponent } from './components/contact-form/contact-form.component';
 import { DomainesComponent } from './components/domaines/domaines.component';
@@ -29,7 +22,7 @@ import { ConnexionComponent } from './components/connexion/connexion.component';
     InscriptionRecruteurComponent,
     ContactFormComponent,
     DomainesComponent,
-    ConnexionComponent 
+    ConnexionComponent
   ],
   imports: [
     BrowserModule,
