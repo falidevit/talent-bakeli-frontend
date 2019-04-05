@@ -9,13 +9,9 @@ import { InscriptionRecruteurComponent } from './components/inscription-recruteu
 import { HomepageComponent } from './components/homepage/homepage.component';
 import { HowToWorkComponent } from './components/how-to-work/how-to-work.component';
 import { ContactFormComponent } from './components/contact-form/contact-form.component';
-<<<<<<< HEAD
 import { DomainesComponent } from './components/domaines/domaines.component';
 import { ConnexionComponent } from './components/connexion/connexion.component';
-=======
-import { DomainesComponent } from './components/domaines/domaines.component'; 
 
->>>>>>> 54f04b01a3e39d85ac576d9d62b8d0d0d8f2bf8e
 
 @NgModule({
   declarations: [
@@ -25,14 +21,8 @@ import { DomainesComponent } from './components/domaines/domaines.component';
     HowToWorkComponent,
     InscriptionRecruteurComponent,
     ContactFormComponent,
-<<<<<<< HEAD
     DomainesComponent,
-    ConnexionComponent
-    
-=======
-    DomainesComponent
-
->>>>>>> 54f04b01a3e39d85ac576d9d62b8d0d0d8f2bf8e
+    ConnexionComponent 
   ],
   imports: [
     BrowserModule,
