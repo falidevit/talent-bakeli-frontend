@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { InscriptionRecruteurComponent } from './components/inscription-recruteur/inscription-recruteur.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    InscriptionRecruteurComponent
   ],
   imports: [
     BrowserModule,
