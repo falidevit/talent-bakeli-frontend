@@ -7,33 +7,26 @@ import { PageCouvertureAccueilComponent } from './components/page-couverture-acc
 
 import { InscriptionRecruteurComponent } from './components/inscription-recruteur/inscription-recruteur.component';
 import { HomepageComponent } from './components/homepage/homepage.component';
-<<<<<<< HEAD
 import {DomainesComponent} from './components/domaines/domaines.component';
 import { CarrousselComponent } from './components/carroussel/carroussel.component';
 import { ContactFormComponent } from './components/contact-form/contact-form.component';
 import { DetailBakelisteComponent } from './components/detail-bakeliste/detail-bakeliste.component';
-=======
 import { HowToWorkComponent } from './components/how-to-work/how-to-work.component';
-import { ContactFormComponent } from './components/contact-form/contact-form.component';
-import { DomainesComponent } from './components/domaines/domaines.component';
 import { ConnexionComponent } from './components/connexion/connexion.component';
 import { HeaderComponent } from './components/header/header.component';
 import { BakelisteProfileComponent } from './components/bakeliste-profile/bakeliste-profile.component';
 
 
->>>>>>> 5ddb3ea9cf59bb5ba14d6bcd9ba2b54c3fbc18e4
 @NgModule({
   declarations: [
     AppComponent,
     PageCouvertureAccueilComponent,
     HomepageComponent,
-<<<<<<< HEAD
     DomainesComponent,
     CarrousselComponent,
     DetailBakelisteComponent,
     InscriptionRecruteurComponent,
-    ContactFormComponent
-=======
+    ContactFormComponent,
     HowToWorkComponent,
     InscriptionRecruteurComponent,
     ContactFormComponent,
@@ -41,7 +34,6 @@ import { BakelisteProfileComponent } from './components/bakeliste-profile/bakeli
     ConnexionComponent,
     HeaderComponent,
     BakelisteProfileComponent
->>>>>>> 5ddb3ea9cf59bb5ba14d6bcd9ba2b54c3fbc18e4
   ],
   imports: [
     BrowserModule,

@@ -3,7 +3,7 @@ SIDEBAR AREA CSS
 ----------------------*/
 aside.nav_sidebar{
     width: 160px;
-    background: #372db4;
+    background: #ff9800;
 }
 .site{
     height: 100%;
@@ -129,7 +129,7 @@ aside.nav_sidebar.shrinked .main_menu > ul >li.active p{
 .main_menu	>ul >li a,
 .main_menu	>ul >li span,
 .main_menu	>ul >li p{
-    color: #b5b0f7;
+    color: #fff;
     -webkit-transition: 0.3s;
     -moz-transition: 0.3s;
     -ms-transition: 0.3s;
@@ -146,7 +146,7 @@ aside.nav_sidebar.shrinked .main_menu > ul >li.active p{
 .main_menu > ul >li:before {
     position: absolute;
     content: '';
-    border-left: 60px solid #493fc8;
+    border-left: 60px solid #009688;
     border-top: 45px solid transparent;
     border-bottom: 45px solid transparent;
     z-index: -1;
@@ -173,7 +173,7 @@ aside.nav_sidebar.shrinked .main_menu > ul >li.active p{
 .social ul li > a>span{
     font-size: 14px;
     line-height: 24px;
-    color: #b5b0f7;
+    color: #fff;
 }
 
 #bakeliste-profile aside li{
