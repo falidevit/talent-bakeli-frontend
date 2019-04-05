@@ -7,6 +7,7 @@ import { InscriptionRecruteurComponent } from './components/inscription-recruteu
 import { HomepageComponent } from './components/homepage/homepage.component';
 import {DomainesComponent} from './components/domaines/domaines.component';
 import { CarrousselComponent } from './components/carroussel/carroussel.component';
+import { ContactFormComponent } from './components/contact-form/contact-form.component';
 import { DetailBakelisteComponent } from './components/detail-bakeliste/detail-bakeliste.component';
 @NgModule({
   declarations: [
@@ -14,7 +15,9 @@ import { DetailBakelisteComponent } from './components/detail-bakeliste/detail-b
     HomepageComponent,
     DomainesComponent,
     CarrousselComponent,
-    DetailBakelisteComponent
+    DetailBakelisteComponent,
+    InscriptionRecruteurComponent,
+    ContactFormComponent
   ],
   imports: [
     BrowserModule,

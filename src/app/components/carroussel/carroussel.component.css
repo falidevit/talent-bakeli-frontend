@@ -7,6 +7,35 @@ h1 {
   text-align: center;
 
 }
+
+button{
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  background: #ff9800;
+  opacity: 1;
+  border: none;
+  margin-bottom: 20px;
+  align-items: center;
+}
+button:hover{
+  background: #F44336;
+
+}
+.btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #F44336;
+  border-color: #F44336;
+}
+.section{
+  padding:60px 0px;
+  margin-bottom:100px;
+}
+.container{
+  margin-bottom: 80px;
+}
 h1 div {
   position: relative;
   float: left;
@@ -143,6 +172,7 @@ h1 span:last-child {
 }
 .our-bakelist .social li {
   display: inline-block;
+  margin-left:-21px;
 }
 .our-bakelist .social li a {
   display: block;
@@ -159,4 +189,11 @@ h1 span:last-child {
   .our-bakelist {
     margin-bottom: 10px;
   }
+
+}
+@media only screen and (max-width: 590px) {
+  button {
+    margin-left: 90px;
+  }
+
 }
