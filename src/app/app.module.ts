@@ -12,6 +12,7 @@ import { ContactFormComponent } from './components/contact-form/contact-form.com
 import { DomainesComponent } from './components/domaines/domaines.component';
 import { ConnexionComponent } from './components/connexion/connexion.component';
 import { HeaderComponent } from './components/header/header.component';
+import { BakelisteProfileComponent } from './components/bakeliste-profile/bakeliste-profile.component';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import { HeaderComponent } from './components/header/header.component';
     ContactFormComponent,
     DomainesComponent,
     ConnexionComponent,
-    HeaderComponent
+    HeaderComponent,
+    BakelisteProfileComponent
   ],
   imports: [
     BrowserModule,
