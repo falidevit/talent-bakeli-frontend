@@ -1,0 +1,31 @@
+.form-content{
+    align-content: center;
+    padding: 3px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.form-in{
+    padding: 3px;
+
+}
+
+
+
+.header{
+text-align: center;
+text-transform: uppercase;
+font-size: 60px;
+}
+
+.card-header
+{
+   text-align: center;
+}
+
+
+
+.button
+{
+    width: 120px;
+}

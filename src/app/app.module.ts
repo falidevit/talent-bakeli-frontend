@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { InscriptionRecruteurComponent } from './components/inscription-recruteur/inscription-recruteur.component';
 import { HomepageComponent } from './components/homepage/homepage.component';
 import { HowToWorkComponent } from './components/how-to-work/how-to-work.component';
 
@@ -10,7 +11,8 @@ import { HowToWorkComponent } from './components/how-to-work/how-to-work.compone
   declarations: [
     AppComponent,
     HomepageComponent,
-    HowToWorkComponent
+    HowToWorkComponent,
+    InscriptionRecruteurComponent
   ],
   imports: [
     BrowserModule,
