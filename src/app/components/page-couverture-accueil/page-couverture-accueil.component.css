@@ -1,0 +1,47 @@
+section{
+	background-image: url("https://cdn.pixabay.com/photo/2018/02/14/10/28/business-3152586_960_720.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	height: 550px;
+	background-position: center;
+}
+form{
+	/*margin-top: 200px;
+	margin-left: 290px;*/
+	/*display: inline-block;*/
+
+}
+input{
+	padding: 20px;
+	/*padding-right: 50px;
+	margin-left: 20px;
+	border-radius: 20px;
+	width: 370px;*/
+	height: 18px;
+}
+img{
+	/*border: 30px;
+	background-color: white;
+	width: 25px;
+	height: 43px;
+	/*margin-top: -1px;*/
+}
+
+.bienvenue{
+	/*font-size: 100px;
+	color: white ;
+	
+	height: 120px;
+	text-align: center;
+	padding-top: 70px;
+	text-align: center;
+	padding-left: 20px;*/
+
+	
+
+	
+
+}
+
+
+
