@@ -12,6 +12,7 @@ import { HowToWorkComponent } from './components/how-to-work/how-to-work.compone
 import { ContactFormComponent } from './components/contact-form/contact-form.component';
 import { DomainesComponent } from './components/domaines/domaines.component';
 import { ConnexionComponent } from './components/connexion/connexion.component';
+import { HeaderComponent } from './components/header/header.component';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { ConnexionComponent } from './components/connexion/connexion.component';
     InscriptionRecruteurComponent,
     ContactFormComponent,
     DomainesComponent,
-    ConnexionComponent
+    ConnexionComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
