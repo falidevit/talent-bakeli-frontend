@@ -5,43 +5,32 @@ section{
 	height: 550px;
 	background-position: center;
 }
-form{
-	/*margin-top: 200px;
-	margin-left: 290px;*/
-	/*display: inline-block;*/
-
+.bienvenue {
+    text-align: center;
+    font-size: 57px;
+    margin-bottom: 15px;
+    color: #ff9800;
+    text-shadow: 0px 1px 0px #000;
 }
-input{
-	padding: 20px;
-	/*padding-right: 50px;
-	margin-left: 20px;
-	border-radius: 20px;
-	width: 370px;*/
-	height: 18px;
-}
-img{
-	/*border: 30px;
-	background-color: white;
-	width: 25px;
-	height: 43px;
-	/*margin-top: -1px;*/
-}
-
-.bienvenue{
-	/*font-size: 100px;
-	color: white ;
-	
-	height: 120px;
+.search-container {
 	text-align: center;
-	padding-top: 70px;
-	text-align: center;
-	padding-left: 20px;*/
-
-	
-
-	
-
+	position: relative;
+    top: 193px;
 }
+.search-container i.search.icon {
+    background: #ff9800;
+    opacity: 1 !important;
+}
+.filtre {
+    height: 550px;
+    background: #000;
+    opacity: 0.1;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+
 
 
 
