@@ -1,0 +1,45 @@
+.form-content{
+    align-content: center;
+    padding: 3px;
+    border: 1px solid #ff9800;
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+
+.form-in{
+    padding: 3px;
+    color:#ff9800;
+
+}
+
+label{
+    color:#ff9800;
+}
+
+.header{
+text-align: center;
+text-transform: uppercase;
+color: #ff9800;
+font-size: 40px;
+}
+
+.card-header
+{
+   text-align: center;
+    background-color: #ff9800 !important;
+
+}
+
+.inputstyle
+{
+    border: 1px solid #ff9800 !important;
+}
+
+.button
+{
+    background-color: #ff9800;
+    color: white;
+    width: 120px;
+    align-self: center;
+}
