@@ -13,12 +13,9 @@ const routes: Routes = [
   { path: 'contact-form', component: ContactFormComponent},
   { path: 'connexion', component: ConnexionComponent},
   { path: 'profil-bakeliste', component: BakelisteProfileComponent },
-<<<<<<< HEAD
-  { path: 'contact-form', component: ContactFormComponent }
-=======
+  { path: 'contact-form', component: ContactFormComponent },
   {path: 'bakeliste-domaine', component: BakelistByDomainComponent},
 
->>>>>>> 38afb77ae13dec4b9a33e1b3b9927b20901d7035
 
 ];
 
