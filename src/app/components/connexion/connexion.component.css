@@ -21,13 +21,14 @@ label{
 text-align: center;
 text-transform: uppercase;
 color: #ff9800;
-font-size: 60px;
+font-size: 40px;
 }
 
 .card-header
 {
    text-align: center;
     background-color: #ff9800 !important;
+
 }
 
 .inputstyle
@@ -40,8 +41,5 @@ font-size: 60px;
     background-color: #ff9800;
     color: white;
     width: 120px;
-}
-a{
-    float: right;
-    color: #ff9800;
+    align-self: center;
 }
