@@ -10,7 +10,8 @@ import { InscriptionRecruteurComponent } from './components/inscription-recruteu
 import { HomepageComponent } from './components/homepage/homepage.component';
 import { HowToWorkComponent } from './components/how-to-work/how-to-work.component';
 import { ContactFormComponent } from './components/contact-form/contact-form.component';
-import { DomainesComponent } from './components/domaines/domaines.component'; 
+import { DomainesComponent } from './components/domaines/domaines.component';
+import { AllProfilComponent } from './components/all-profil/all-profil.component'; 
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { DomainesComponent } from './components/domaines/domaines.component';
     HowToWorkComponent,
     InscriptionRecruteurComponent,
     ContactFormComponent,
-    DomainesComponent
+    DomainesComponent,
+    AllProfilComponent
 
   ],
   imports: [
