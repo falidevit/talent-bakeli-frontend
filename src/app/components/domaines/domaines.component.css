@@ -2,6 +2,34 @@ body{
   background: rgb(255, 255, 255);
 
 }
+/* TITRE */
+h1 {
+  margin-top: 0;
+  font-size: 3rem;
+  margin: auto;
+  margin-bottom: 20px;
+  text-align: center;
+
+
+}
+
+h1 span:last-child {
+  color: #ff9800;
+  margin-right: 1rem;
+  text-align: center;
+  font-weight: 700;
+  line-height: 1.28571429em;
+  font-weight: 700;
+  font-size: 38px;
+}
+h1 span:first-child {
+  margin-right: 1rem;
+  font-weight: 700;
+  line-height: 1.28571429em;
+  font-weight: 700;
+  font-size: 38px;
+}
+
 span{
   font-size:15px;
 }
