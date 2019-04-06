@@ -348,8 +348,10 @@ START ABOUT AREA CSS
 }
 .about_btn .btn {
     width: 190px;
-    padding: 0;
     margin-right: 24px;
+    border: 1px solid #ff9800;
+    padding: 15px;
+    text-transform: capitalize;
 }
 .about_content{
     padding-top: 40px;
@@ -436,7 +438,7 @@ RESUME AREA
     width: 50px;
     text-align: center;
     background: #ffffff;
-    color: #372db4;
+    color: #ff9800;
     border-radius: 50%;
 }
 .resume_are_title span,
@@ -461,7 +463,7 @@ RESUME AREA
     width: 1px;
     background: #d1d1d1;
     bottom: 0;
-    left: 8px;
+    left: 41px;
 }
 .timeline li+li{
     margin-top: 57px;
@@ -473,14 +475,14 @@ RESUME AREA
 }
 .timeline li:before {
     content: "";
-    left: 0;
+    left: -7px;
     top: 4.5PX;
     border-radius: 50%;
     position: absolute;
     height: 16px;
     width: 16px;
     background: #fff;
-    border: 2px solid #362cb2;
+    border: 2px solid #ff9800;
 }
 .time_period{
     padding-bottom: 6px;
@@ -747,10 +749,10 @@ PORTFOLIO AREA
     display: inline-block;
 }
 .single_portfolio_item .classless .icon:hover span{
-    color: #362cb1;
+    color: #ff9800;
 }
 .single_portfolio_item .classless .icon:hover:before{
-    border-color: #362cb1;
+    border-color: #ff9800;
 }
 
 .single_portfolio_item .classless .icon:before {
@@ -811,7 +813,7 @@ PORTFOLIO AREA END
     content: "";
     height: 12px;
     width: 12px;
-    background: #362cb1;
+    background: #ff9800;
     border-radius: 50%;
     bottom: 0;
     transform: translateY(50%);
@@ -830,7 +832,7 @@ PORTFOLIO AREA END
     content: "";
     height: 12px;
     width: 12px;
-    background: #362cb1;
+    background: #ff9800;
     border-radius: 50%;
     bottom: 0;
     transform: translateY(50%);
@@ -846,4 +848,23 @@ p.sub_title {
     font-size: 16px;
     color: #a8a8a8;
     margin: 0;
+}
+/* TEXT TRANSFORM */
+.main_menu	ul li a,
+.home .hero_content h1,
+.home .hero_content p,
+.btn,
+.section_title,
+.single_skill .labels p,
+.resume_are_title p,
+.timeline_title h4,
+.service_title,
+.count p,
+.process_title,
+.filter_area ul li,
+.blog_content h4,
+.blog_title h3,
+.comment_area .area_title,
+.widget_title{
+    text-transform: uppercase;
 }
