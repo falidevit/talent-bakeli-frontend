@@ -1,22 +1,17 @@
-.fas {
-    color: #ff9800;
-    font-size: 8em;
-    margin-left: 35%;
-    margin-top: 20%;
-    margin-bottom: 20%
+.fa-eye {
+    font-size: 5em;
+    color: #009688;
     
 }
-.fa-chevron-right{
-    margin-left: 0px;
-    color: #f44336;
-    
-    
+.fa-eye:hover{
+    color: #ff9800; 
 }
 
-#howtowork {
-    padding: 60px 0px;
+img {
+    width: 100px !important;
+    height: 100px !important;
+    background-color: #ff9800 !important;
 }
-
 h1 span:last-child {
     color: #ff9800;
     margin-right: 1rem;
@@ -37,3 +32,4 @@ h1 span:last-child {
   span{
     font-size:15px;
   }
+
