@@ -2,6 +2,11 @@
   <aside class="nav_sidebar">
     <div class="menu_wrapper">
         <div class="header_top">
+            <div class="row return-container">
+                <div class="col-md-12 return">
+                    <a routerLink="/" class="btn btn-default teal button ui">Retour en arrière</a>
+                </div>
+            </div>
             <div class="toggle_icon hidden-xs"><span class="lnr lnr-menu"></span></div>
             <div class="head_img_wrap">
                 <img src="/assets/images/empty-avatar.png" alt="Images">
@@ -12,19 +17,19 @@
         <div class="main_menu">
             <ul>
                 <li class=""><a (click)="onSwitchHomeSection()"><span class="fas fa-home"></span><p>Home</p></a></li>
-                <li class=""><a (click)="onSwitchAboutSection()"><span class="fas fa-user"></span><p>about me</p></a></li>
-                <li class=""><a (click)="onSwitchResumeSection()"><span class="fas fa-book"></span><p>resume</p></a></li>
-                <li><a (click)="onSwitchServiceSection()"><span class="fas fa-cog"></span><p>services</p></a></li>
+                <li class=""><a (click)="onSwitchAboutSection()"><span class="fas fa-user"></span><p>a propos</p></a></li>
+                <li class=""><a (click)="onSwitchResumeSection()"><span class="fas fa-book"></span><p>mon cv</p></a></li>
+                <li><a (click)="onSwitchServiceSection()"><span class="fas fa-comment-dots"></span><p>avis</p></a></li>
                 <li><a (click)="onSwitchPortfolioSection()"><span class="fas fa-briefcase"></span><p>portfolio</p></a></li>
             </ul>
 
             <div class="social">
-                <ul>
-                    <li><a href=""><span class="fas fa-facebook"></span></a></li>
-                    <li><a href=""><span class="fas fa-twitter"></span></a></li>
-                    <li><a href=""><span class="fas fa-google-plus"></span></a></li>
-                    <li><a href=""><span class="fas fa-linkedin"></span></a></li>
-                </ul>
+                <button class="ui circular facebook icon button">
+                    <i class="facebook icon"></i>
+                  </button>
+                  <button class="ui circular linkedin icon button">
+                    <i class="linkedin icon"></i>
+                  </button>
             </div>
         </div>
     </div>
@@ -52,8 +57,8 @@
               <div class="row">
                   <div class="col-md-12">
                       <div class="section_title">
-                          <h2>ABOUT ME</h2>
-                          <p class="sub_title">I AM JONATHON DOE</p>
+                          <h2>A PROPOS DE MOI</h2>
+                          <p class="sub_title">JE SUIS SADIO SANGHARE</p>
                       </div>
                   </div><!-- .col-md-12 -->
               </div><!-- row -->
@@ -73,52 +78,50 @@
                       <div class="about_info">
                           <ul>
                               <li>
-                                  <p>Full Name</p>
-                                  <span>Jonathon Doe</span>
+                                  <p>Prénom et Nom</p>
+                                  <span>Sadio Sangharé</span>
                               </li>
                               <li>
-                                  <p>Address</p>
-                                  <span>Somers Road North, Portsmouth</span>
+                                  <p>Adresse</p>
+                                  <span>Ouest Foire - Dakar</span>
                               </li>
                               <li>
-                                  <p>Phone</p>
-                                  <span>+4573-8365-9374</span>
+                                  <p>Téléhone</p>
+                                  <span>+221 78 015 81 71</span>
                               </li>
                               <li>
                                   <p>Email</p>
-                                  <span>johndoe@domain.com </span>
+                                  <span>sadiosan23@gmail.com </span>
                               </li>
                           </ul>
 
                           <ul>
                               <li>
-                                  <p>Date of Birthday</p>
-                                  <span>21 January 1985</span>
+                                  <p>Date de naissance</p>
+                                  <span>23 Novembre 1982</span>
                               </li>
                               <li>
-                                  <p>Job</p>
-                                  <span>Frelancer</span>
+                                  <p>Poste recherché</p>
+                                  <span>Développeur web/mobile</span>
                               </li>
                               <li>
-                                  <p>Skype</p>
-                                  <span>johndoe_647</span>
+                                  <p>Nombre de mois d'expérience</p>
+                                  <span>15</span>
                               </li>
                               <li>
-                                  <p>Website</p>
-                                  <span>www.johndoe.com</span>
+                                  <p>Langues : </p>
+                                  <span>Français, Anglais, Espagnol</span>
                               </li>
                           </ul>
                       </div>
 
                       <!-- about_content -->
-                      <div class="about_content hidden_md hidden_sm">
-                          <p>I’m a Front End Develpoer and UI Designer Based in Austin. I have a Passion for Creating Clean,
-                              Beautiful, Interactive, Minimalistic, Responsive and User Friendly UI, Developed by Modular,
-                              Scalable and Functional Code. When, while the lovely valley teems with vapour around me, and the
-                               meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few
-                               stray gleams steal. I throw myself down among the tall grass by the trickling stream; and, as I
-                               lie close to the earth, a thousand unknown.
-                            </p>
+                      <div class="about_content">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, repellendus ipsum, distinctio voluptatum mollitia modi quasi velit reiciendis similique obcaecati quod quia cupiditate. Quis libero nobis placeat assumenda beatae quasi!
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ex id mollitia laboriosam quod modi quaerat? Pariatur doloribus iusto corrupti, qui voluptatibus aperiam quas, esse dolore molestias hic labore iure?
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit numquam esse mollitia quae at ad, recusandae reprehenderit, totam assumenda nemo doloremque pariatur dignissimos veritatis beatae, aliquid nihil ipsa eveniet ullam!
+                        </p>
 
                           <hr>
                           <!-- <div class="ui buttons">
@@ -126,18 +129,26 @@
                             <div class="or" data-text="ou"></div>
                             <button class="ui positive button">deux</button>
                           </div> -->
-                          <div class="ui vertical animated red button" tabindex="0">
-                            <div class="hidden content">Shop</div>
-                            <div class="visible content">
-                              <i class="shop icon"></i>
-                            </div>
+                          <div class="row" id="actions-btn">
+                              <div class="col-md-6 interested">
+                                    <div class="ui vertical animated teal button" tabindex="0">
+                                        <div class="hidden content">Je suis intéressé par ce profil</div>
+                                        <div class="visible content">
+                                            <i class="fas fa-thumbs-up"></i>
+                                        </div>
+                                    </div>
+                              </div>
+                              <div class="col-md-6 download">
+                                    <div class="ui vertical animated orange button" tabindex="0">
+                                        <div class="hidden content">Télécharger CV</div>
+                                        <div class="visible content">
+                                            <i class="fas fa-download"></i>
+                                        </div>
+                                    </div>
+                              </div>
                           </div>
-                          <div class="ui vertical animated orange button" tabindex="0">
-                            <div class="hidden content">Shop</div>
-                            <div class="visible content">
-                              <i class="shop icon"></i>
-                            </div>
-                          </div>
+                          
+                          
                       </div><!-- end about_content -->
                   </div><!-- end .col-md-8 -->
               </div><!-- end row -->
@@ -155,8 +166,8 @@
               <div class="row">
                   <div class="col-md-12">
                       <div class="section_title">
-                          <h2>my skills</h2>
-                          <p class="sub_title">my special expertise</p>
+                          <h2>mon parcours professionnel</h2>
+                          <p class="sub_title">spécialiste de mon domaine par la pratique</p>
                       </div>
                   </div><!-- .col-md-12 -->
               </div><!-- end .row -->
@@ -166,7 +177,7 @@
                   <!-- col-md-6 -->
                   <div class="col-md-6">
                       <div class="resume_are_title">
-                          <span class="pe-7s-study"></span><p>EDUCATION</p>
+                          <span class="pe-7s-study"></span><p>FORMATION</p>
                       </div>
 
                       <!-- timeline -->
@@ -214,7 +225,7 @@
                   <!-- col-md-6 -->
                   <div class="col-md-6">
                       <div class="resume_are_title">
-                          <span class="pe-7s-portfolio"></span><p>work EXPERIENCE</p>
+                          <span class="pe-7s-portfolio"></span><p>EXPERIENCE</p>
                       </div>
 
                       <!-- timeline -->
@@ -270,8 +281,8 @@
               <div class="row">
                   <div class="col-md-12">
                       <div class="section_title">
-                          <h2>my skills</h2>
-                          <p class="sub_title">my special expertise</p>
+                          <h2>mes compétences</h2>
+                          <p class="sub_title">apprendre n'a pas de prix</p>
                       </div>
                   </div><!-- .col-md-12 -->
               </div><!-- row -->
@@ -376,6 +387,56 @@
               </div><!-- end row -->
           </div><!-- end .container -->
       </div><!-- end skill_area -->
+
+      <!-- extra_pro_area -->
+      <div class="service_area section_padding" id="extra-pro">
+        <!-- container -->
+        <div class="container">
+            <!-- row -->
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section_title">
+                        <h2>activités extra-professionnel</h2>
+                        <p class="sub_title">l'engagement n'a pas de prix</p>
+                    </div>
+                </div><!-- .col-md-12 -->
+            </div><!-- end .row -->
+
+
+            <!-- row -->
+            <div class="row extra-pro-row">
+                <!-- single_service -->
+                <div class="col-md-6 col-sm-12 col-lg-6">
+                    <div class="single_service">
+                        <div class="service_icon"><span class="pe-7s-diamond"></span></div>
+                        <div class="service_content">
+                            <h5 class="service_title">SAPEUR POMPIER VOLONTAIRE</h5>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente beatae provident vero eligendi, modi quae dicta, tenetur perferendis, veritatis tempore quasi explicabo repudiandae! Cum unde hic eligendi eaque ea similique!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12 col-lg-6">
+                    <div class="single_service">
+                        <div class="service_icon"><span class="pe-7s-diamond"></span></div>
+                        <div class="service_content">
+                            <h5 class="service_title">RESPONSABLE COMMUNICATION NJÀCCAAR</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem ipsam, voluptatibus esse necessitatibus quisquam mollitia autem a, illum, nemo omnis aliquid eveniet veritatis? Aperiam, tempore. Nostrum impedit corporis deleniti error?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12 col-lg-6">
+                    <div class="single_service">
+                        <div class="service_icon"><span class="pe-7s-diamond"></span></div>
+                        <div class="service_content">
+                            <h5 class="service_title">PRESIDENT DE L'ASRT</h5>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis expedita voluptates exercitationem aut molestias, quae minima recusandae facilis nihil excepturi dolorum fuga voluptatibus quam perferendis nam illum incidunt velit laboriosam!</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div><!-- .row -->
+        </div><!-- end .container -->
+    </div><!-- end services_area -->
   </section><!-- end #resume -->
 
   <!-- #service  -->
@@ -424,201 +485,24 @@
               <div class="col-md-12">
                   <div class="section_title">
                       <h2>portfolio</h2>
-                      <p class="sub_title">my latest work</p>
+                      <p class="sub_title">mes réalisations</p>
                   </div>
               </div>
           </div><!-- end .row -->
-
-          <!-- row -->
           <div class="row">
-              <!-- .col-md-12 -->
-              <div class="col-md-12">
-                  <!-- filter_area -->
-                  <div class="filter_area">
-                      <ul id="sorting_control">
-                          <li class="active" data-uk-filter="">All works</li>
-                          <li data-uk-filter="web">web design</li>
-                          <li data-uk-filter="ux">UI/UX design</li>
-                          <li data-uk-filter="wordpress"> wordpress</li>
-                          <li data-uk-filter="branding"> branding</li>
-                      </ul>
-                  </div>
-              </div><!-- .col-md-12 -->
-          </div><!-- .row  -->
-
-          <!-- row -->
-          <div class="row" data-uk-grid="{controls: '#sorting_control'}" style="position: relative; height: 1475px;">
-              <!-- single_item -->
-              <div class="col-md-4  col-xs-12 col-sm-6 md-half-width" data-uk-filter="wordpress" data-grid-prepared="true" style="position: absolute; box-sizing: border-box; top: 0px; opacity: 1; left: 0px;">
-                  <div class="single_portfolio_item">
-                      <figure>
-                          <div class="portfolio_img">
-                              <img src="images/portfolio1.png" alt="Portfolio">
-                          </div>
-
-                          <figcaption>
-                              <p>Web development project</p>
-                              <div class="classless">
-                                  <div class="icon"><a href="single_portfolio.html"><span class="fa fa-link"></span></a></div>
-                                  <a class="icon venobox vbox-item" href="images/portfolio1.png"><span class="fa fa-search"></span></a>
-                              </div>
-                          </figcaption>
-                      </figure>
-                  </div>
-              </div><!-- end single_item -->
-
-              <!-- single_item -->
-              <div class="col-md-4  col-xs-12 col-sm-6 md-half-width" data-uk-filter="ux" data-grid-prepared="true" style="position: absolute; box-sizing: border-box; top: 0px; opacity: 1; left: 295px;">
-                  <div class="single_portfolio_item">
-                      <figure>
-                          <div class="portfolio_img">
-                              <img src="images/portfolio2.png" alt="Portfolio">
-                          </div>
-
-                          <figcaption>
-                              <p>Web development project</p>
-                              <div class="classless">
-                                  <div class="icon"><a href="single_portfolio.html"><span class="fa fa-link"></span></a></div>
-                                  <a class="icon venobox vbox-item" href="images/portfolio2.png"><span class="fa fa-search"></span></a>
-                              </div>
-                          </figcaption>
-                      </figure>
-                  </div>
-              </div><!-- end single_item -->
-
-              <!-- single_item -->
-              <div class="col-md-4  col-xs-12 col-sm-6 md-half-width" data-uk-filter="web" data-grid-prepared="true" style="position: absolute; box-sizing: border-box; top: 295px; opacity: 1; left: 0px;">
-                  <div class="single_portfolio_item">
-                      <figure>
-                          <div class="portfolio_img">
-                              <img src="images/portfolio3.png" alt="Portfolio">
-                          </div>
-
-                          <figcaption>
-                              <p>Web development project</p>
-                              <div class="classless">
-                                  <div class="icon"><a href="single_portfolio.html"><span class="fa fa-link"></span></a></div>
-                                  <a class="icon venobox vbox-item" href="images/portfolio3.png"><span class="fa fa-search"></span></a>
-                              </div>
-                          </figcaption>
-                      </figure>
-                  </div>
-              </div><!-- end single_item -->
-
-              <!-- single_item -->
-              <div class="col-md-4  col-xs-12 col-sm-6 md-half-width" data-uk-filter="ux" data-grid-prepared="true" style="position: absolute; box-sizing: border-box; top: 295px; opacity: 1; left: 295px;">
-                  <div class="single_portfolio_item">
-                      <figure>
-                          <div class="portfolio_img">
-                              <img src="images/portfolio4.png" alt="Portfolio">
-                          </div>
-
-                          <figcaption>
-                              <p>Web development project</p>
-                              <div class="classless">
-                                  <div class="icon"><a href="single_portfolio.html"><span class="fa fa-link"></span></a></div>
-                                  <a class="icon venobox vbox-item" href="images/portfolio4.png"><span class="fa fa-search"></span></a>
-                              </div>
-                          </figcaption>
-                      </figure>
-                  </div>
-              </div><!-- end single_item -->
-
-              <!-- single_item -->
-              <div class="col-md-4  col-xs-12 col-sm-6 md-half-width" data-uk-filter="web" data-grid-prepared="true" style="position: absolute; box-sizing: border-box; top: 590px; opacity: 1; left: 0px;">
-                  <div class="single_portfolio_item">
-                      <figure>
-                          <div class="portfolio_img">
-                              <img src="images/portfolio5.png" alt="Portfolio">
-                          </div>
-
-                          <figcaption>
-                              <p>Web development project</p>
-                              <div class="classless">
-                                  <div class="icon"><a href="single_portfolio.html"><span class="fa fa-link"></span></a></div>
-                                  <a class="icon venobox vbox-item" href="images/portfolio5.png"><span class="fa fa-search"></span></a>
-                              </div>
-                          </figcaption>
-                      </figure>
-                  </div>
-              </div><!-- end single_item -->
-
-              <!-- single_item -->
-              <div class="col-md-4  col-xs-12 col-sm-6 md-half-width" data-uk-filter="wordpress" data-grid-prepared="true" style="position: absolute; box-sizing: border-box; top: 590px; opacity: 1; left: 295px;">
-                  <div class="single_portfolio_item">
-                      <figure>
-                          <div class="portfolio_img">
-                              <img src="images/portfolio2.png" alt="Portfolio">
-                          </div>
-
-                          <figcaption>
-                              <p>Web development project</p>
-                              <div class="classless">
-                                  <div class="icon"><a href="single_portfolio.html"><span class="fa fa-link"></span></a></div>
-                                  <a class="icon venobox vbox-item" href="images/portfolio5.png"><span class="fa fa-search"></span></a>
-                              </div>
-                          </figcaption>
-                      </figure>
-                  </div>
-              </div><!-- end single_item -->
-
-              <!-- single_item -->
-              <div class="col-md-4  col-xs-12 col-sm-6 md-half-width" data-uk-filter="branding" data-grid-prepared="true" style="position: absolute; box-sizing: border-box; top: 885px; opacity: 1; left: 0px;">
-                  <div class="single_portfolio_item">
-                      <figure>
-                          <div class="portfolio_img">
-                              <img src="images/portfolio3.png" alt="Portfolio">
-                          </div>
-
-                          <figcaption>
-                              <p>Web development project</p>
-                              <div class="classless">
-                                  <div class="icon"><a href="single_portfolio.html"><span class="fa fa-link"></span></a></div>
-                                  <a class="icon venobox vbox-item" href="images/portfolio5.png"><span class="fa fa-search"></span></a>
-                              </div>
-                          </figcaption>
-                      </figure>
-                  </div>
-              </div><!-- end single_item -->
-
-              <!-- single_item -->
-              <div class="col-md-4  col-xs-12 col-sm-6 md-half-width" data-uk-filter="wordpress" data-grid-prepared="true" style="position: absolute; box-sizing: border-box; top: 885px; opacity: 1; left: 295px;">
-                  <div class="single_portfolio_item">
-                      <figure>
-                          <div class="portfolio_img">
-                              <img src="images/portfolio2.png" alt="Portfolio">
-                          </div>
-
-                          <figcaption>
-                              <p>Web development project</p>
-                              <div class="classless">
-                                  <div class="icon"><a href="single_portfolio.html"><span class="fa fa-link"></span></a></div>
-                                  <a class="icon venobox vbox-item" href="images/portfolio2.png"><span class="fa fa-search"></span></a>
-                              </div>
-                          </figcaption>
-                      </figure>
-                  </div>
-              </div><!-- end single_item -->
-
-              <!-- single_item -->
-              <div class="col-md-4 col-xs-12 col-sm-6  md-half-width" data-uk-filter="branding" data-grid-prepared="true" style="position: absolute; box-sizing: border-box; top: 1180px; opacity: 1; left: 0px;">
-                  <div class="single_portfolio_item">
-                      <figure>
-                          <div class="portfolio_img">
-                              <img src="images/portfolio1.png" alt="Portfolio">
-                          </div>
-
-                          <figcaption>
-                              <p>Web development project</p>
-                              <div class="classless">
-                                  <div class="icon"><a href="single_portfolio.html"><span class="fa fa-link"></span></a></div>
-                                  <a class="icon venobox vbox-item" href="images/portfolio1.png"><span class="fa fa-search"></span></a>
-                              </div>
-                          </figcaption>
-                      </figure>
-                  </div>
-              </div><!-- end single_item -->
-          </div><!-- end row -->
+                <div class="col-md-6 single-img">
+                    <img src="/assets/images/portfol1.png" alt="Portfolio" class="img-responsive single_item">
+                    <div class="img-title">
+                        Site de réservation de bateaux
+                    </div>
+                </div>
+                <div class="col-md-6 single-img">
+                    <img src="/assets/images/portfol2.png" alt="Portfolio" class="img-responsive single_item">
+                    <div class="img-title">
+                        Site de réservation de billets d'avion
+                    </div>
+                </div>
+          </div>
       </div><!-- end container -->
   </section>
 

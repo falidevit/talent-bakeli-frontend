@@ -2,30 +2,26 @@
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <a class="navbar-brand" href="#">Talents Bakeli</a>
+  <a class="navbar-brand" routerLink="/">
+    <span class="talents">Talents</span> <span class="bakeli"> Bakeli</span>
+  </a>
 
   <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+    <!-- <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
       <li class="nav-item active">
         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Link</a>
       </li>
-    </ul>
+    </ul> -->
     <ul class="right-nav-talent">
-      <li>
-        <a [routerLink]="['/connexion']">
-          <i class="fas fa-sign-in-alt"></i>
-          Se connecter
+        <a routerLink="/se-connecter" class="connexion-link" data-toggle="tooltip" data-placement="top" title="Se connecter">
+          <li><i class="fas fa-sign-in-alt"></i></li>
         </a>
-      </li>
-      <li>
-        <a [routerLink]="['/inscription-recruteur']">
-            <i class="fas fa-user-plus"></i>
-          S'inscrire
+        <a [routerLink]="['/inscription-recruteur']" class="inscription-link" data-toggle="tooltip" data-placement="top" title="S'inscrire">
+          <li><i class="fas fa-user-plus"></i></li>  
         </a>
-      </li>
     </ul>
   </div>
 </nav>

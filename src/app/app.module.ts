@@ -15,6 +15,8 @@ import { HeaderComponent } from './components/header/header.component';
 import { BakelisteProfileComponent } from './components/bakeliste-profile/bakeliste-profile.component';
 import { BakelistByDomainComponent } from './components/bakelist-by-domain/bakelist-by-domain.component';
 import { AllProfilComponent } from './components/all-profil/all-profil.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { CustomersComponent } from './components/customers/customers.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +35,9 @@ import { AllProfilComponent } from './components/all-profil/all-profil.component
     BakelisteProfileComponent,
     CarrousselComponent,
     BakelistByDomainComponent,
-    AllProfilComponent
+    AllProfilComponent,
+    FooterComponent,
+    CustomersComponent
   ],
   imports: [
     BrowserModule,
