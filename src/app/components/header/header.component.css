@@ -4,8 +4,9 @@ ul.right-nav-talent li {
     margin: 9px;
     border: 1px solid #fff;
     padding: 10px;
-    width: 173px;
+    width: 50px;
     border-radius: 5px;
+    background: #009688;
 }
 
 ul.right-nav-talent li a {
@@ -24,4 +25,46 @@ ul.right-nav-talent li a i {
 
 .navbar{
     background: #ff9800 !important;
+}
+span.talents {
+    display: inline-block;
+    background: #fff;
+    color: #ff9800;
+    padding: 16px;
+    /* border-radius: 5px; */
+    font-size: 28px;
+    font-weight: 600;
+}
+
+span.bakeli {
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 600;
+    /* background: #000; */
+    /* padding: 16px; */
+    /* color: #fff; */
+}
+div#navbarTogglerDemo03 {
+    vertical-align: middle;
+    display: table-cell !important;
+}
+
+ul.right-nav-talent {
+    vertical-align: middle;
+    display: table-cell;
+    
+}
+ul.right-nav-talent li{
+    transition: all 0.85s cubic-bezier(0, 1.8, 1, 1.2);
+    -webkit-transition: all 0.85s cubic-bezier(0, 1.8, 1, 1.2);
+    -moz-transition: all 0.85s cubic-bezier(0, 1.8, 1, 1.2);
+}
+ul.right-nav-talent i {
+    color: #fff;
+    text-align: center;
+    font-size: 27px;
+}
+ul.right-nav-talent li:hover {
+    background: #ff9800 !important;
+    width: 60px;
 }

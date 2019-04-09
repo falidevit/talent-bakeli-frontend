@@ -6,15 +6,18 @@ import { ContactFormComponent } from './components/contact-form/contact-form.com
 import { BakelistByDomainComponent } from './components/bakelist-by-domain/bakelist-by-domain.component';
 import { ConnexionComponent } from './components/connexion/connexion.component';
 import { BakelisteProfileComponent } from './components/bakeliste-profile/bakeliste-profile.component';
+import {AllProfilComponent } from './components/all-profil/all-profil.component';
+
 
 const routes: Routes = [
   { path: '', component: HomepageComponent },
   { path: 'inscription-recruteur', component: InscriptionRecruteurComponent},
   { path: 'contact-form', component: ContactFormComponent},
-  { path: 'connexion', component: ConnexionComponent},
+  { path: 'se-connecter', component: ConnexionComponent},
   { path: 'profil-bakeliste', component: BakelisteProfileComponent },
   { path: 'contact-form', component: ContactFormComponent },
   {path: 'bakeliste-domaine', component: BakelistByDomainComponent},
+  { path: 'tous-les-bakelistes', component: AllProfilComponent},
 
 
 ];

@@ -25,8 +25,6 @@ export class BakelisteProfileComponent implements OnInit {
       this.isResumeSectionActive = false;
       this.isServiceSectionActive = false;
       this.isPortfolioSectionActive = false;
-    }else{
-      this.isHomeSectionActive = false;
     }
   }
 
@@ -37,8 +35,6 @@ export class BakelisteProfileComponent implements OnInit {
       this.isResumeSectionActive = false;
       this.isServiceSectionActive = false;
       this.isPortfolioSectionActive = false;
-    }else{
-      this.isAboutSectionActive = false;
     }
   }
 
@@ -49,8 +45,6 @@ export class BakelisteProfileComponent implements OnInit {
       this.isResumeSectionActive = true;
       this.isServiceSectionActive = false;
       this.isPortfolioSectionActive = false;
-    }else{
-      this.isResumeSectionActive = false;
     }
   }
 
@@ -61,8 +55,6 @@ export class BakelisteProfileComponent implements OnInit {
       this.isResumeSectionActive = false;
       this.isServiceSectionActive = true;
       this.isPortfolioSectionActive = false;
-    }else{
-      this.isServiceSectionActive = false;
     }
   }
 
@@ -73,8 +65,6 @@ export class BakelisteProfileComponent implements OnInit {
       this.isResumeSectionActive = false;
       this.isServiceSectionActive = false;
       this.isPortfolioSectionActive = true;
-    }else{
-      this.isPortfolioSectionActive = false;
     }
   }
 
