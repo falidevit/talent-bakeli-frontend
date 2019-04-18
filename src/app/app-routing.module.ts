@@ -7,6 +7,7 @@ import { BakelistByDomainComponent } from './components/bakelist-by-domain/bakel
 import { ConnexionComponent } from './components/connexion/connexion.component';
 import { BakelisteProfileComponent } from './components/bakeliste-profile/bakeliste-profile.component';
 import {AllProfilComponent } from './components/all-profil/all-profil.component';
+import { CvModelBakeliComponent } from './components/cv-model-bakeli/cv-model-bakeli.component';
 
 
 const routes: Routes = [
@@ -18,6 +19,7 @@ const routes: Routes = [
   { path: 'contact-form', component: ContactFormComponent },
   {path: 'bakeliste-domaine', component: BakelistByDomainComponent},
   { path: 'tous-les-bakelistes', component: AllProfilComponent},
+  { path: 'detail-bakeliste', component:CvModelBakeliComponent}
 
 
 ];

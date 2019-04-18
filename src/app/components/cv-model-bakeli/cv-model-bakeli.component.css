@@ -1,0 +1,37 @@
+img{
+    float: right
+}
+
+.marge_row
+{
+    margin-bottom: 5%;
+}
+h3{
+    margin: 0%;
+    color: gray;
+    }
+h1, h2{
+    margin: 0%;
+}
+h1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: capitalize;
+}
+
+.projet
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #009688;
+    font-weight: bold;
+}
+
+.tec
+{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-size: 16px;
+    text-transform: uppercase;
+    color: #f44336;
+    font-weight: bold;
+}

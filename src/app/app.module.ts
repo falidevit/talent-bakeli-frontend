@@ -17,6 +17,7 @@ import { BakelistByDomainComponent } from './components/bakelist-by-domain/bakel
 import { AllProfilComponent } from './components/all-profil/all-profil.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { CustomersComponent } from './components/customers/customers.component';
+import { CvModelBakeliComponent } from './components/cv-model-bakeli/cv-model-bakeli.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { CustomersComponent } from './components/customers/customers.component';
     BakelistByDomainComponent,
     AllProfilComponent,
     FooterComponent,
-    CustomersComponent
+    CustomersComponent,
+    CvModelBakeliComponent
   ],
   imports: [
     BrowserModule,
