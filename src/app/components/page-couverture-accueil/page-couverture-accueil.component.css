@@ -9,7 +9,7 @@ section{
     text-align: center;
     font-size: 57px;
     margin-bottom: 15px;
-    color: #ff9800;
+    color: #009688;
     text-shadow: 0px 1px 0px #000;
 }
 .search-container {
@@ -18,7 +18,7 @@ section{
     margin-top: 104px;
 }
 .search-container i.search.icon {
-    background: #ff9800;
+    background: #009688;
     opacity: 1 !important;
 }
 /* .filtre {
@@ -41,7 +41,7 @@ span.text-premier {
 }
 
 h1.bienvenue span:last-child {
-    color: #ff9800;
+    color: #009688;
     font-size: 77px;
     font-family: ubuntu;
 }
@@ -52,7 +52,7 @@ h1.bienvenue span:first-child {
 span.travail {
     font-size: 52px;
     font-weight: 600;
-    color: #ff9800;
+    color: #000;
     text-shadow: 0 1px 0 #000;
 }
 
@@ -66,7 +66,7 @@ span.text-deuxieme {
     text-shadow: 0 1px 0 #000;
 }
 span.recrutez {
-    color: #ff9800;
+    color: #000;
     font-size: 33px;
     font-weight: 900;
     text-shadow: 0 1px 0 #000;

@@ -25,6 +25,9 @@ h1{
     text-transform: uppercase;
     color: #009688;
     font-weight: bold;
+    border: 1px solid #009688;
+    border-radius: 5px;
+    padding: 5px;
 }
 
 .tec

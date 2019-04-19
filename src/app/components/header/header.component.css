@@ -23,13 +23,13 @@ ul.right-nav-talent li a i {
     vertical-align: middle;
 }
 
-.navbar{
+/* .navbar{
     background: #ff9800 !important;
-}
+} */
 span.talents {
     display: inline-block;
     background: #fff;
-    color: #ff9800;
+    color: #009688;
     padding: 16px;
     /* border-radius: 5px; */
     font-size: 28px;
