@@ -1,30 +1,38 @@
 .bakeliste-dev .img-container img {
-    width: 100% !important;
     border: 4px solid #009688;
     border-radius: 50%;
     height: 125px !important;
     padding: 5px;
+    width: 125px !important;
+    text-align: center !important;
+    display: inline-block !important;
 }
 .bakeliste-designer .img-container img {
-    width: 100% !important;
     border: 4px solid #F34336;
     border-radius: 50%;
     height: 125px !important;
     padding: 5px;
+    width: 125px !important;
+    text-align: center !important;
+    display: inline-block !important;
 }
 .bakeliste-business .img-container img {
-    width: 100% !important;
     border: 4px solid #ff9800;
     border-radius: 50%;
     height: 125px !important;
     padding: 5px;
+    width: 125px !important;
+    text-align: center !important;
+    display: inline-block !important;
 }
 .bakeliste-marketeur .img-container img {
-    width: 100% !important;
     border: 4px solid #ff9800;
     border-radius: 50%;
     height: 125px !important;
     padding: 5px;
+    width: 125px !important;
+    text-align: center !important;
+    display: inline-block !important;
 }
 .pseudonyme {
     text-align: center;
@@ -40,8 +48,8 @@
     position: relative;
 }
 .skills a {
-    display: inline-block;
-    margin-bottom: 5px;
+    display: inline-block !important;
+    margin-bottom: 5px !important;
 }
 .portfolio-item{
     float: left;
@@ -65,9 +73,35 @@ div#portfolio-bakeliste {
 
 .col-md-4.portfolio-item {
     border: 1px solid #ececec;
-    height: 140px;
+    height: 306px;
     padding: 5px;
 }
 section#cvBakeli {
     margin-bottom: 130px;
 }
+.img-container {
+    text-align: center;
+}
+h1 span:last-child {
+    color: #009688;
+    margin-right: 1rem;
+    text-align: center;
+    font-weight: 700;
+    line-height: 1.28571429em;
+    font-weight: 700;
+    font-size: 38px;
+  }
+  h1 span:first-child {
+    margin-right: 1rem;
+    font-weight: 700;
+    line-height: 1.28571429em;
+    font-weight: 700;
+    font-size: 38px;
+  }
+  h1.text-center {
+    padding: 15px;
+  }
+  
+  /* span{
+    font-size:15px;
+  } */
