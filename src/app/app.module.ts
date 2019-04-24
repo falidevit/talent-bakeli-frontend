@@ -22,6 +22,7 @@ import { CvModelBakeliComponent } from './components/cv-model-bakeli/cv-model-ba
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { UsersService } from './services/users/users.service';
+import { CvthequeService } from './services/cvtheque/cvtheque.service';
 
 
 
@@ -54,7 +55,8 @@ import { UsersService } from './services/users/users.service';
     HttpClientModule
   ],
   providers: [
-    UsersService
+    UsersService,
+    CvthequeService
   ],
   bootstrap: [AppComponent]
 })
