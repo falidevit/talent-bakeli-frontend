@@ -16,10 +16,10 @@
       </li>
     </ul> -->
     <ul class="right-nav-talent">
-        <a *ngIf="!isGuestUser" routerLink="/se-connecter" class="connexion-link" data-toggle="tooltip" data-placement="top" title="Se connecter">
+        <a routerLink="/se-connecter" class="connexion-link" data-toggle="tooltip" data-placement="top" title="Se connecter">
           <li><i class="fas fa-sign-in-alt"></i></li>
         </a>
-        <a [routerLink]="['/inscription-recruteur']" class="inscription-link" data-toggle="tooltip" data-placement="top" title="S'inscrire">
+        <a routerLink="/inscription-recruteur" class="inscription-link" data-toggle="tooltip" data-placement="top" title="S'inscrire">
           <li><i class="fas fa-user-plus"></i></li>  
         </a>
     </ul>
