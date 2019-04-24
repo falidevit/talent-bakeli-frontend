@@ -19,6 +19,12 @@ import { FooterComponent } from './components/footer/footer.component';
 import { CustomersComponent } from './components/customers/customers.component';
 import { CvModelBakeliComponent } from './components/cv-model-bakeli/cv-model-bakeli.component';
 
+import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+import { UsersService } from './services/users/users.service';
+
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -43,9 +49,13 @@ import { CvModelBakeliComponent } from './components/cv-model-bakeli/cv-model-ba
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [
+    UsersService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

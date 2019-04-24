@@ -1,60 +1,88 @@
-<section class="row" id = "inscriptionRecruteur">
-<div class="container">
+<section class="row" id="inscriptionRecruteur">
+  <div class="container">
     <hr>
     <h1 class="text-center">
-        <span class="">Welcome to Talents</span><span class=""> Bakeli</span>
+      <span class="">Welcome to Talents</span><span class="">Bakeli</span>
     </h1>
     <hr>
     <div class="card form-content col-md-6 offset-md-3 shadow-lg p-3 mb-5 bg-white rounded">
-        <div class="card-header">
-    <h1>
-        <span class="fa fa-user-plus fa-4x"></span>&nbsp;&nbsp;Inscription</h1>
-        </div>
-    <div class="ui inverted form form-in">
-        <hr>
-      <div class="two fields">
-        <div class="field">
-          <input  class="inputstyle" placeholder="Prenom"  name="first_name" type="text">
-        </div>
-        <div class="field">
-          <input class="inputstyle" placeholder="Last Name" type="text">
-        </div>
+      <div class="card-header">
+        <h1>
+          <span class="fa fa-user-plus fa-4x"></span>&nbsp;&nbsp;Inscription</h1>
       </div>
-      <hr>
-      <div class="two fields">
-          <div class="field">
-            <input class="inputstyle" placeholder="Email" type="text">
-          </div>
-          <div class="field">
-            <input class="inputstyle"  placeholder="Phone" type="text">
-          </div>
-        </div>
-        <hr>
-      <div class="field">
-          <div class="fields">
-            <div class="sixteen wide field">
-              <input class="inputstyle" type="text" name="address" placeholder=" Adresse">
+      <form ngNativeValidate (ngSubmit)="onRegisterRecruiter()">
+        <div class="ui inverted form form-in">
+          <hr>
+            <div *ngIf="isSuccessRegister" class="alert alert-success success-request-alert">
+              Votre compte a été créé avec succès. <a routerLink="/se-connecter" class="login_link">Connectez-vous ici !</a>
             </div>
-            </div>
-            <hr>
-            <div class="two fields">
-                <div class="field">
-                  <input class="inputstyle" placeholder= "Raison Sociale" nom="raison_sociale" type="text">
-                </div>
-                <div class="field">
-                  <input class="inputstyle" placeholder="Domaine Professionnel" nom="domaine_pro" type="text">
-                </div>
+            <div *ngIf="isRegisterError" class="alert alert-danger error-request-alert">
+                Un problème est survenu. Veuillez réessayer plus tard.
               </div>
-              <a href="#">Connectez vous ici!</a><br><br>
-      <!-- <div class="inline field">
-        <div class="ui checkbox">
-          <input type="checkbox" tabindex="0" class="hidden">
-          <label>I agree to the terms and conditions</label>
+          <hr>
+          <div class="two fields">
+            <div class="field">
+              <input class="inputstyle" required placeholder="Prénom" name="first_name" type="text"
+                [(ngModel)]="data.first_name">
+            </div>
+            <div class="field">
+              <input class="inputstyle" placeholder="Nom" name="last_name" type="text" [(ngModel)]="data.last_name">
+            </div>
+          </div>
+          <hr>
+          <div class="two fields">
+            <div class="field">
+              <input class="inputstyle" placeholder="Email" name="email" type="text" [(ngModel)]="data.email">
+            </div>
+            <div class="field">
+              <input class="inputstyle" placeholder="Téléphone" name="phone" type="text" [(ngModel)]="data.phone">
+            </div>
+          </div>
+          <hr>
+
+          <div class="two fields">
+            <div class="field">
+              <input class="inputstyle" placeholder="Mot de passe" name="password" type="password"
+                [(ngModel)]="data.password">
+            </div>
+            <div class="field">
+              <input class="inputstyle" placeholder="Confirmation du mot de passe" name="confirm_password"
+                type="password" [(ngModel)]="data.confirmPassword">
+            </div>
+          </div>
+          <div class="row error-row" *ngIf="isPasswordError" >
+              <div class="col-md-12 error-content">
+                  <div class="alert alert-danger error-request-alert">
+                      Les deux mots de passe ne sont pas identiques.
+                  </div>
+              </div>
+            </div>
+          <hr>
+
+          <div class="field">
+            <div class="two fields">
+              <div class="field">
+                <input class="inputstyle" placeholder="Raison Sociale" name="recruiter_raison_sociale"
+                  [(ngModel)]="data.recruiter_raison_sociale" type="text">
+              </div>
+              <div class="field">
+                <input class="inputstyle" placeholder="Domaine Professionnel" name="recruiter_domaine_pro"
+                  [(ngModel)]="data.recruiter_domaine_pro" type="text">
+              </div>
+            </div>
+            <a routerLink="/se-connecter">Connectez vous ici!</a><br><br>
+            <div class="ui submit button submit_container">
+              <button *ngIf="!isButtonLoading" class="btn btn-default">
+                S'inscrire
+              </button>
+              <button *ngIf="isButtonLoading" class="btn btn-warning">
+                  Inscription en cours &nbsp;
+                  <i class="fas fa-spin fa-spinner"></i>
+              </button>
+            </div>
+          </div>
         </div>
-      </div> -->
-      <div class="ui submit button">S'inscrire</div>
+      </form>
     </div>
   </div>
-    </div>
-</div>
 </section>

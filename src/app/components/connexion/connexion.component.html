@@ -8,28 +8,29 @@
       <div class="card form-content col-md-6 offset-md-3 shadow-lg p-3 mb-5 bg-white rounded">
           <div class="card-header">
       <h1>
-          <span class="fa fa-sign-in fa-2x"></span>&nbsp;&nbsp;Connecter Vous!</h1>
+          <span class="fa fa-sign-in fa-2x"></span>&nbsp;&nbsp;Connectez-vous!</h1>
           </div>
+      <form ngNativeValidate (ngSubmit)="onLoginRecruiter()">
       <div class="ui inverted form form-in">
           <hr>
           <div class="field">
-            <input  class="inputstyle" placeholder="Email"  name="email" type="text">
+            <input  class="inputstyle" placeholder="Email"  name="email" type="text" [(ngModel)]="data.email">
           </div>
           <div class="field">
-            <input class="inputstyle" placeholder="Mot de Pass" type="text">
+            <input class="inputstyle" placeholder="Mot de Passe" type="password" name="password" [(ngModel)]="data.password">
           </div>
         <hr>
          
         
       </div>
-        <!-- <div class="inline field">
-          <div class="ui checkbox">
-            <input type="checkbox" tabindex="0" class="hidden">
-            <label>I agree to the terms and conditions</label>
-          </div>
-        </div> -->
-        <div class="ui submit button">Connecter</div>
+        <div class="ui submit button submit_container">
+          <button *ngIf="!isButtonLoading" class="btn btn-default submit-btn">Se connecter</button>
+          <button *ngIf="isButtonLoading" class="btn btn-warning inProgress-btn"> 
+            Connexions en cours &nbsp;
+            <i class="fas fa-spin fa-spinner"></i>   
+          </button>
+        </div>
+        </form>
       </div>
     </div>
   </section>
-  
