@@ -8,7 +8,7 @@ import { map, catchError, tap } from 'rxjs/operators';
 })
 export class UsersService {
 
-   endpoint = 'http://51.254.98.35:8000/api/';
+  endpoint = 'http://51.254.98.35:8000/api/';
   // endpoint = 'http://127.0.0.1:8000/api/';
   httpOptions = {
     headers: new HttpHeaders({
@@ -38,13 +38,10 @@ export class UsersService {
     return body || {};
   }
 
-  // doRegisterRecruiter(user): Observable<any> {
-  //   console.log(user);
-  //   return this.http.post<any>(this.endpoint + 'register-recruiter-user', JSON.stringify(user), this.httpOptions).pipe(
-  //     tap((user) => 'success'),
-  //     catchError(this.handleError<any>('doRegisterRecruiter'))
-  //   );
-  // }
+  checkingExistingEmail(email): Observable<any> {
+    return this.http.get(this.endpoint + 'checking-user-email/' + email).pipe(
+      map(this.extractData));
+  }
 
   doRegisterRecruiter(user){
     return this.http.post(this.endpoint + 'register-recruiter-user', user);   

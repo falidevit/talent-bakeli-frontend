@@ -42,7 +42,7 @@ font-size: 60px;
     width: 120px;
 }
 a{
-    float: right;
+    /* float: right; */
     color: #009688;
 }
 h1 {
@@ -67,7 +67,7 @@ h1 {
     text-align: center;
   }
   h1 span:last-child {
-    color: #009688;
+    /* color: #fff; */
     margin-right: 1rem;
     text-align: center;
   }
@@ -87,4 +87,38 @@ h1 {
     font-size: 20px;
     color:  #fff;
     font-weight: 600;
+}
+#recruiter_register_form .ui.left.corner.label, .ui.left.corner.label:after {
+  right: auto;
+  left: 0.6px;
+}
+#recruiter_register_form .ui.left.corner.label .icon {
+  left: -8px;
+}
+#recruiter_register_form .ui.form .field {
+  clear: both;
+  margin: 0;
+}
+#recruiter_register_form .field.ui.left.corner.labeled.input {
+  width: 100%;
+}
+#recruiter_register_form input{
+  margin-bottom: 7px;
+}
+a.login_link {
+  border: 2px solid #ff9800;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: 600;
+  background: #ff9800;
+  color: #fff;
+  display: inline-block;
+  text-align: center;
+  width: 50%;
+  margin-top: 8px;
+}
+#recruiter_register_form .success-request-alert {
+  padding: 7px;
+  font-size: 17px;
+  text-align: center;
 }

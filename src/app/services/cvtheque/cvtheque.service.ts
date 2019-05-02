@@ -8,8 +8,8 @@ import { map, catchError, tap } from 'rxjs/operators';
 })
 export class CvthequeService {
 
-   endpoint = 'http://51.254.98.35:8000/api/';
-  // endpoint = 'http://127.0.0.1:8000/api/';
+  endpoint = 'http://51.254.98.35:8000/api/';
+  //endpoint = 'http://127.0.0.1:8000/api/';
   httpOptions = {
     headers: new HttpHeaders({
       method: 'post',

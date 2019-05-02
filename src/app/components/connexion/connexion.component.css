@@ -55,7 +55,7 @@ h1 div {
 }
 
 h1 span:last-child {
-    color: #009688;
+    /* color: #fff; */
     margin-right: 1rem;
     text-align: center;
 }
@@ -67,4 +67,14 @@ h1 span:last-child {
     line-height: 1.28571429em;
     font-weight: 700;
     font-size: 38px;
+}
+
+.login-request-error-row {
+    margin-top: 7px;
+}
+.inputs-row .input {
+    width: 100%;
+}
+.inputs-row .item-input-container {
+    margin-bottom: 10px;
 }

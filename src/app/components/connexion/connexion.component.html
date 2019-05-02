@@ -13,11 +13,34 @@
       <form ngNativeValidate (ngSubmit)="onLoginRecruiter()">
       <div class="ui inverted form form-in">
           <hr>
-          <div class="field">
-            <input  class="inputstyle" placeholder="Email"  name="email" type="text" [(ngModel)]="data.email">
+          <div class="alert alert-warning required_warning">
+            Les champs précédés d'un <span class="required_asterix">*</span> sont requis.
           </div>
-          <div class="field">
-            <input class="inputstyle" placeholder="Mot de Passe" type="password" name="password" [(ngModel)]="data.password">
+          <hr>
+          <div class="row inputs-row">
+            <div class="col-md-12 item-input-container">
+              <div class="field ui left corner labeled input">
+                <input  class="inputstyle" placeholder="Email"  name="email" type="text" [(ngModel)]="data.email">
+                <div class="ui left corner label volkeno-green-bgcolor-transparent">
+                  <i class="asterisk icon red"></i>
+                </div>
+              </div>
+              <div class="alert alert-danger form-error" *ngIf="isEmailEmpty">
+                Votre email est requis
+              </div>
+            </div>
+            <br>
+            <div class="col-md-12 item-input-container">
+              <div class="field ui left corner labeled input">
+                <input class="inputstyle" placeholder="Mot de Passe" type="password" name="password" [(ngModel)]="data.password">
+                <div class="ui left corner label volkeno-green-bgcolor-transparent">
+                  <i class="asterisk icon red"></i>
+                </div>
+              </div>
+              <div class="alert alert-danger form-error" *ngIf="isPasswordEmpty">
+                Votre mot de passe est requis
+              </div>
+            </div>
           </div>
         <hr>
          
@@ -29,6 +52,13 @@
             Connexions en cours &nbsp;
             <i class="fas fa-spin fa-spinner"></i>   
           </button>
+        </div>
+        <div class="row login-request-error-row" *ngIf="isLoginRequestError">
+          <div class="col-md-12 login-request-error-body">
+            <div class="alert alert-danger login-request-error">
+              Vos identifiants ne sont pas reconnus. Veuillez réessayer avec d'autres identifiants. Merci !
+            </div>
+          </div>
         </div>
         </form>
       </div>
