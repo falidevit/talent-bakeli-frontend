@@ -38,3 +38,18 @@ h1{
     color: #f44336;
     font-weight: bold;
 }
+
+.returnBack-btn-container {
+    position: absolute;
+    bottom: 15px;
+    right: 20px;
+    /* border: 1px solid; */
+    /* border-radius: 50%; */
+    width: 59px;
+    height: 59px;
+}
+
+a.btn.btn-default {
+    /* text-align: center; */
+    line-height: 3;
+}

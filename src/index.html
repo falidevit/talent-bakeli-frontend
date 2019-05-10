@@ -7,12 +7,49 @@
   <base href="/">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="icon" type="image/x-icon" href="assets/images/logo_bakeli.png">
 </head>
 <body>
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-  <app-root></app-root>
+  <div id="content-wrapper">
+      <app-root></app-root>
+  </div>
   <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+
+$(document).ready(function(){
+
+$('.hidden').css('display','none');
+
+$( "#filter button" ).each(function() {
+
+  $(this).on("click", function(){
+
+       var filter = $(this).attr('class');         
+
+    if ( $(this).attr('class') == 'all' ) {
+       $('.hidden').contents().appendTo('#posts').hide().show('slow');
+       $( "#filter button" ).removeClass('active');
+       $(this).addClass('active');
+       $("#filter button").attr("disabled", false);
+       $(this).attr("disabled", true);
+    }
+    else {
+       $('.post').appendTo('.hidden');
+       $('.hidden').contents().appendTo('#posts').hide().show('slow');
+       $('.post:not(.' + filter + ')').appendTo('.hidden').hide('slow');
+       $( "#filter button" ).removeClass('active');
+       $(this).addClass('active');
+       $("#filter button").attr("disabled", false);
+       $(this).attr("disabled", true);
+    };
+    
+    });
+
+});
+
+});
+</script>
 </body>
 </html>

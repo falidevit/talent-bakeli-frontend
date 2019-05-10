@@ -69,3 +69,17 @@ ul.right-nav-talent li:hover {
     background: #ff9800 !important;
     width: 60px;
 }
+
+a.nav-link {
+    font-size: 17px;
+    font-weight: 600;
+    /* border: 1px solid #ececec; */
+    padding: 7px;
+    margin-right: 20px;
+    /* border-radius: 5px; */
+    border-bottom: 2px solid;
+}
+
+div#navbarTogglerDemo03 {
+    margin-left: 35px;
+}

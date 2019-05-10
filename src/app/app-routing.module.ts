@@ -8,16 +8,17 @@ import { ConnexionComponent } from './components/connexion/connexion.component';
 import { BakelisteProfileComponent } from './components/bakeliste-profile/bakeliste-profile.component';
 import {AllProfilComponent } from './components/all-profil/all-profil.component';
 import { CvModelBakeliComponent } from './components/cv-model-bakeli/cv-model-bakeli.component';
+import { HomepageV2Component } from './components/homepage-v2/homepage-v2.component';
 
 
 const routes: Routes = [
-  { path: '', component: HomepageComponent },
+  { path: '', component: HomepageV2Component },
   { path: 'inscription-recruteur', component: InscriptionRecruteurComponent},
   { path: 'contact-form', component: ContactFormComponent},
   { path: 'se-connecter', component: ConnexionComponent},
   { path: 'profil-bakeliste', component: BakelisteProfileComponent },
   { path: 'contact-form', component: ContactFormComponent },
-  {path: 'bakeliste-domaine', component: BakelistByDomainComponent},
+  { path: 'bakeliste-domaine', component: BakelistByDomainComponent},
   { path: 'tous-les-bakelistes', component: AllProfilComponent},
   { path: 'detail-bakeliste', component:CvModelBakeliComponent}
 
