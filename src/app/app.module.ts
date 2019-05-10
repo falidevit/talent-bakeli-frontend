@@ -23,6 +23,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { UsersService } from './services/users/users.service';
 import { CvthequeService } from './services/cvtheque/cvtheque.service';
+import { HomepageV2Component } from './components/homepage-v2/homepage-v2.component';
 
 
 
@@ -46,7 +47,8 @@ import { CvthequeService } from './services/cvtheque/cvtheque.service';
     AllProfilComponent,
     FooterComponent,
     CustomersComponent,
-    CvModelBakeliComponent
+    CvModelBakeliComponent,
+    HomepageV2Component
   ],
   imports: [
     BrowserModule,
