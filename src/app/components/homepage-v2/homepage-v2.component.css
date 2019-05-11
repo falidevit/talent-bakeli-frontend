@@ -104,7 +104,6 @@ span.value {
   /* padding: 5px; */
   border-top: 1px solid #e8e8e8;
   margin-top: 0px;
-  border-bottom: 1px solid #e8e8e8;
 }
 
 .details-container {
@@ -116,6 +115,7 @@ span.value {
 .hire-btn-container {
   border: 1px solid #e8e8e8;
   padding: 15px;
+  border-radius: 0 0 5px 0px;
 }
 
 .hire-btn-container button.hire-btn {
@@ -150,4 +150,28 @@ h1.slogan.text-center {
 .no-gutter [class*='col-']:not(:first-child), .no-gutter [class*='col-']:not(:last-child) {
   padding-right: 0;
   padding-left: 0;
+}
+
+#hireModal .modal-header {
+  display: initial !important;
+}
+.close-btn {
+  position: absolute;
+  left: 15px;
+  font-size: 20px;
+  color: #fff;
+  bottom: 27px;
+  font-weight: 600;
+}
+.sending-request-btn {
+  position: absolute;
+  right: 15px;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 600;
+  bottom: 27px;
+}
+.modal-footer {
+  height: 100px;
+  position: relative;
 }

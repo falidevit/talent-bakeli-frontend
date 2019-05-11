@@ -128,6 +128,11 @@ h1 span:last-child {
     border-color: #ececec !important;
 }
 
+.volkeno-red-bgcolor{
+    background-color: #f34336 !important;
+    border-color: #f34336 !important;
+}
+
 .form-error{
     margin-top: 5px;
 }

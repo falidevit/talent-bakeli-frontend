@@ -25,6 +25,8 @@ import { UsersService } from './services/users/users.service';
 import { CvthequeService } from './services/cvtheque/cvtheque.service';
 import { HomepageV2Component } from './components/homepage-v2/homepage-v2.component';
 
+import {Ng2TelInputModule} from 'ng2-tel-input';
+
 
 
 @NgModule({
@@ -54,7 +56,8 @@ import { HomepageV2Component } from './components/homepage-v2/homepage-v2.compon
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    Ng2TelInputModule
   ],
   providers: [
     UsersService,
