@@ -40,7 +40,7 @@ h1{
 }
 
 .returnBack-btn-container {
-    position: absolute;
+    position: fixed;
     bottom: 15px;
     right: 20px;
     /* border: 1px solid; */
